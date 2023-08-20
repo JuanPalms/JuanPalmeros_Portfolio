@@ -1,9 +1,19 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
 /*General settings*/
 body {
   background-color: #f7f5f5f8;
   font-family: "Inter", sans-serif;
   display: grid;
   justify-content: center;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 h1,
@@ -13,9 +23,19 @@ h3 {
   margin-left: 10px;
 }
 
+h1 {
+  font-size: 44px;
+  font-weight: 800;
+  margin-bottom: 0px;
+  letter-spacing: -2px;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 0px;
+  letter-spacing: -1px;
+}
 p {
-  font-size: 14px;
-  line-height: 1.5;
   margin-bottom: 15px;
   margin-left: 15px;
 }
@@ -83,7 +103,6 @@ p {
   justify-content: center;
   column-gap: 15px;
   row-gap: 5px;
-  font-size: 25px;
   margin-bottom: 30px;
 }
 /*Grid: education-container*/
@@ -129,7 +148,6 @@ p {
   justify-content: flex-start;
   column-gap: 15px;
   row-gap: 5px;
-  font-size: 25px;
   margin-bottom: 30px;
 }
 /*Grid: education-container*/
