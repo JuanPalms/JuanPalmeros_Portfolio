@@ -107,6 +107,7 @@ a {
 }
 
 .contact-icons {
+  margin-top: 100px;
   display: flex;
   gap: 10px; /* Adjust as needed for space between icons */
 }
@@ -176,6 +177,12 @@ a {
 }
 .about-me-text {
   grid-column: 2 / span;
+}
+
+.projects-featured-container {
+  display: grid;
+  max-width: 50%;
+  margin: auto;
 }
 
 /**********************Education section**************************/
@@ -280,6 +287,7 @@ a {
 }
 
 .projects-grid {
+  margin-top: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px; /* espacio entre las tarjetas */
@@ -332,4 +340,27 @@ a {
 
 .github-repo:hover {
   background-color: #00766c; /* Un tono más oscuro de Teal */
+}
+
+/****************************************/
+
+.featured p {
+  max-height: 3.6em; /* Esto muestra aproximadamente 2 líneas, ajusta según necesidad */
+  overflow: hidden;
+  transition: max-height 0.5s ease; /* Animación suave */
+}
+
+.read-more {
+  cursor: pointer;
+  color: #0077cc;
+  text-decoration: none;
+  margin: 0 16px 16px; /* Añadido margen para separarlo del botón */
+  display: inline-block; /* Hacerlo un bloque en línea para poder agregar márgenes */
+  padding: 4px 8px; /* Un poco de padding para darle espacio */
+  background-color: #eef2f7; /* Un fondo claro para resaltar */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+.read-more:hover {
+  background-color: #dde7f3; /* Cambio de color en hover */
 }
