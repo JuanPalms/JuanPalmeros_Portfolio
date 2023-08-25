@@ -98,7 +98,7 @@ a {
   font-weight: 500;
   padding: 16px 32px;
   display: inline-block;
-  border-radius: 3%;
+  border-radius: 100px;
 }
 
 .btn:hover,
@@ -183,6 +183,7 @@ a {
   display: grid;
   max-width: 50%;
   margin: auto;
+  margin-top: 100px;
 }
 
 /**********************Education section**************************/
@@ -194,6 +195,7 @@ a {
   column-gap: 15px;
   row-gap: 5px;
   margin-bottom: 30px;
+  margin-top: 100px;
 }
 /*Grid: education-container*/
 .education-image {
@@ -241,6 +243,7 @@ a {
   column-gap: 15px;
   row-gap: 5px;
   margin-bottom: 30px;
+  margin-top: 100px;
 }
 /*Grid: education-container*/
 .experience-image {
@@ -291,6 +294,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px; /* espacio entre las tarjetas */
+  margin-top: 100px;
 }
 
 .project-card {
