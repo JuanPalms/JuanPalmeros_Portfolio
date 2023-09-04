@@ -40,6 +40,11 @@ FONT SIZE SYSTEM (px)
 */
 
 /*General settings*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: #f7f5f5f8;
   font-family: "Inter", sans-serif;
