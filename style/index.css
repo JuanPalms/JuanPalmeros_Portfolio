@@ -164,21 +164,7 @@ Greys:
 /*********** STACK *******************************************/
 .section-stack {
   padding: 4.8rem 3rem 3rem 3rem;
-  /* background-image: linear-gradient(
-    to bottom,
-    #f7f5f5f8 0%,
-    white 5%,
-    #f7f5f5f8 15%,
-    #f7f5f5f8 85%, white 95%,
-    #f7f5f5f8 100%
-  ); */
-  /* background-color: white; */
 }
-
-/* .stack-container {
-  background-image: linear-gradient(to right, #15cd95, white);
-  padding: 0 0 4.8rem 4.8rem;
-} */
 
 .heading-featured-in {
   font-size: 1.6rem;
