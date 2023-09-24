@@ -160,6 +160,47 @@ Greys:
   color: #000000;
 }
 
+/********************************************************************/
+/*********** STACK *******************************************/
+.section-stack {
+  padding: 4.8rem 10rem 3rem 10rem;
+  /* background-image: linear-gradient(
+    to bottom,
+    #f7f5f5f8 0%,
+    white 5%,
+    #f7f5f5f8 15%,
+    #f7f5f5f8 85%, white 95%,
+    #f7f5f5f8 100%
+  ); */
+  /* background-color: white; */
+}
+
+.stack-container {
+  background-image: linear-gradient(to right, #15cd95, white);
+  padding: 0 0 4.8rem 4.8rem;
+}
+
+.heading-featured-in {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #29251e;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+}
+
+.logos img {
+  height: 8rem;
+  /* filter: brightness(0);
+  opacity: 50%; */
+}
 /***********************************************************************************8
 ***************************FEATURED PROJECTS SECTION***************************************/
 
@@ -169,7 +210,7 @@ Greys:
   margin-top: 200px;
   padding: 20px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 4rem auto;
 }
 
 /* .featured-projects {
