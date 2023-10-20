@@ -2,90 +2,107 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>💻 Juan Palmeros - Education</title>
-    <link href="style/style.css" rel="stylesheet" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>>💻 JP-Education</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style/general.css" rel="stylesheet" />
+    <link href="style/education.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="nav-container">
-      <a href="index.html">Home</a>
-      <a href="#">Education</a>
-      <a href="experience.html">Experience</a>
-      <a href="projects.html">Projects</a>
-    </nav>
-
-    <!-- ==================Education================= -->
-    <div class="container">
-      <header class="main-header">
-        <h1>Education</h1>
-      </header>
-      <div class="education-container">
-        <img class="education-image" src="images/itam.jpg" alt="itam" s />
-        <p class="education-name">
-          <strong>M.Sc Data Science </strong><br />
-          <a class="education-place" href="(https://www.itam.mx/en)"
-            >Autonomous Technological Institute of Mexico (ITAM)</a
-          >
-        </p>
-        <p class="education-date">
-          <em>August 2022 - June 2023</em>
-        </p>
-        <p class="education-gpa-courses">
-          <strong>GPA:</strong> 9/10<br />
-          <strong>Relevant Coursework:</strong><br />
-          Data Mining, Machine Learning, Deep Learning, Statical Analysis, Time
-          Series Analysis, Bayesian Statistics, Causal Inference, Optimization,
-          Data Architecture.
-        </p>
-
-        <p class="education-description">
-          The ITAM is a prestigious university in Mexico, renowned for its
-          rigorous academic programs and commitment to excellence. Notably, ITAM
-          was the first university in Mexico to offer a
-          <a href="https://mcdatos.itam.mx/es/conoce-el-posgrado-cdatos">
-            Master's program in Data Science</a
-          >. This program marries in-depth theoretical knowledge with hands-on
-          industry experience, producing data professionals who are both adept
-          and innovative.
-        </p>
+    <header class="header">
+      <nav class="main-nav-container"><ul class="main-nav-list">         
+        <li><a href="index.html" class="main-nav-link">Home</a></li> 
+        <li><a href="#" class="main-nav-link">Education</a></li>
+        <li><a href="experience.html" class="main-nav-link">Experience</a></li>
+        <li><a href="projects.html"" class="main-nav-link">Projects</a></li>
+        <li><a href="education.html"" class="main-nav-link">Projects</a></li>
+        </ul></nav>
+    </header>
+    <main>
+      <section class="section-education">
+        <div class="container">
+          <h2 class="heading-primary">
+          Education
+        </h2>
+        <div class="container-big grid grid--2-cols grid--center-v education">
+          <div class="education-text">
+            <p class="education-name">
+              <strong>M.Sc Data Science </strong><br />
+              <a class="education-place" href="(https://www.itam.mx/en)"
+                >Autonomous Technological Institute of Mexico (ITAM)</a
+              >
+            </p>
+            <p class="education-date">
+              <em>August 2022 - June 2023</em>
+            </p>
+            <p class="education-gpa-courses">
+              <strong>GPA:</strong> 9/10<br />
+              <strong>Relevant Coursework:</strong><br />
+              Data Mining, Machine Learning, Deep Learning, Statical Analysis, Time
+              Series Analysis, Bayesian Statistics, Causal Inference, Optimization,
+              Data Architecture.
+            </p><br/>
+    
+            <p class="education-description">
+              The ITAM is a prestigious university in Mexico, renowned for its
+              rigorous academic programs and commitment to excellence. Notably, ITAM
+              was the first university in Mexico to offer a
+              <a href="https://mcdatos.itam.mx/es/conoce-el-posgrado-cdatos">
+                Master's program in Data Science</a
+              >. This program marries in-depth theoretical knowledge with hands-on
+              industry experience, producing data professionals who are both adept
+              and innovative.
+            </p>
+          </div>
+          <div class="education-img-box">
+            <img src="images/itam.jpg" class="education-img"  alt="itam logo"/>
+          </div>
+          <div class="education-text"><p class="education-name">
+            <strong>B.Sc Economics </strong><br />
+            <a
+              class="education-place"
+              href="https://www.cide.edu/"
+              target="_blank"
+              >Center for Research and Teaching in Economics (CIDE)</a
+            >
+          </p>
+          <p class="education-date">
+            <em>August 2015 - June 2019</em>
+          </p>
+          <p class="education-gpa-courses">
+            <strong>GPA:</strong> 9.2/10<br />
+            <strong>Relevant Coursework:</strong><br />
+            Econometrics, Macroeconomics, Microeconomics, Game Theory, Statistics,
+            Public Finance.<br />
+            <strong>Dissertation: </strong><br />
+            <em
+              >The effect of financial literacy in asset acumulation: Evidence
+              from ENIF 2018</em
+            ><br /><br />
+          </p>
+  
+          <p class="education-description">
+            CIDE is one of Mexico's most prestigious public academic institutions,
+            affiliated with the Mexican Research Council. Specializing in social
+            sciences and renowned for its excellence in both research and
+            teaching, CIDE stands as a benchmark in Mexico and Latin America. Its
+            Bachelor's program in Economics is particularly noteworthy, shaping
+            economists with a robust theoretical foundation and analytical skills,
+            ready to address and propose solutions to contemporary economic
+            challenges
+          </p></div>
+          <div class="education-img-box"><img src="images/cide.jpeg" class="education-img"  alt="itam"/></div>
+        </div>
       </div>
-      <div class="education-container">
-        <img class="education-image" src="images/cide.jpeg" alt="itam" s />
-        <p class="education-name">
-          <strong>B.Sc Economics </strong><br />
-          <a
-            class="education-place"
-            href="https://www.cide.edu/"
-            target="_blank"
-            >Center for Research and Teaching in Economics (CIDE)</a
-          >
-        </p>
-        <p class="education-date">
-          <em>August 2015 - June 2019</em>
-        </p>
-        <p class="education-gpa-courses">
-          <strong>GPA:</strong> 9.2/10<br />
-          <strong>Relevant Coursework:</strong><br />
-          Econometrics, Macroeconomics, Microeconomics, Game Theory, Statistics,
-          Public Finance.<br />
-          <strong>Dissertation: </strong><br />
-          <em
-            >The effect of financial literacy in asset acumulation: Evidence
-            from ENIF 2018</em
-          >
-        </p>
+      </section>
 
-        <p class="education-description">
-          CIDE is one of Mexico's most prestigious public academic institutions,
-          affiliated with the Mexican Research Council. Specializing in social
-          sciences and renowned for its excellence in both research and
-          teaching, CIDE stands as a benchmark in Mexico and Latin America. Its
-          Bachelor's program in Economics is particularly noteworthy, shaping
-          economists with a robust theoretical foundation and analytical skills,
-          ready to address and propose solutions to contemporary economic
-          challenges
-        </p>
-      </div>
-    </div>
+
+    </main>
   </body>
 </html>

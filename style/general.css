@@ -63,8 +63,19 @@ body {
   font-weight: 500;
 }
 
+a {
+  color: #180039;
+  text-decoration: none;
+}
+
 .container {
   max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.container-big {
+  max-width: 140rem;
   margin: 0 auto;
   padding: 0 3.2rem;
 }
