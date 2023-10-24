@@ -2,107 +2,133 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>💻 Juan Palmeros - Experience</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="style/style.css" rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>>💻 JP-Education</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style/general.css" rel="stylesheet" />
+    <link href="style/experience.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="nav-container">
-      <a href="index.html">Home</a>
-      <a href="education.html">Education</a>
-      <a href="#">Experience</a>
-      <a href="projects.html">Projects</a>
-    </nav>
-
-    <!-- ==================Experience================= -->
-    <div class="container">
-      <header class="main-header">
-        <h1>Experience</h1>
-      </header>
-      <div class="experience-container">
-        <img class="experience-image" src="images/banorte.jpg" alt="banorte" />
-        <p class="experience-name">
-          <strong>Data Scientist </strong><br />
-          <a
+    <header class="header">
+      <nav class="main-nav-container"><ul class="main-nav-list">         
+        <li><a href="index.html" class="main-nav-link">Home</a></li> 
+        <li><a href="education.html" class="main-nav-link">Education</a></li>
+        <li><a href="#" class="main-nav-link">Experience</a></li>
+        <li><a href="projects.html"" class="main-nav-link">Projects</a></li>
+        </ul></nav>
+    </header>
+    <main>
+      <section class="section-experience">
+        <div class="container">
+          <h2 class="heading-primary">
+          Professional experience
+        </h2>
+        <div class="container-big grid grid--2-cols grid--center-v experience">
+          <div class="experience-text">
+            <p class="experience-name">
+              <strong>Sr. Data Scientist </strong><br />
+              <a class="experience-place" href="https://axity.com/en/home-axity/"
+              target="_blank"
+                >Axity- Walmart vendor</a
+              >
+            </p>
+            <p class="experience-date">
+              <em>October 2023 - present </em>
+            </p>
+            <p>
+              <strong>Responsibilities and Achievements:</strong><br /><br/>
+              <ul class="experience-list">
+                <li>
+                  Conducted Market Basket Analysis to effectively and automatically assign promotions to products while considering the impacts on complementary and substitute goods.
+             </li>
+              </ul>
+            </p>
+          </div>
+          <div class="experience-img-box">
+            <img src="images/axity.png" class="experience-img"  alt="itam logo"/>
+            <img src="images/walmart.png" class="experience-img"  alt="itam logo"/>
+          </div>
+          <div class="experience-text"><p class="experience-name">
+            <strong>Data Scientist </strong><br />
+            <a
             class="experience-place"
             href="https://investors.banorte.com/en"
             target="_blank"
             >Financial Group Banorte</a
           >
-        </p>
-        <p class="experience-date">
-          <em>June 2023 - Present</em>
-        </p>
-        <p class="experience-others">
-          <strong>Description: </strong>
-        </p>
-
-        <div class="experience-description">
-          <ul>
-            <li>
-              Conducted an statistical analysis to identify the competitors
-              infrastructure strategy in order to improve Banorte's ATM and
-              branch network.
-            </li>
-            <li>
-              Perform AB testing to evaluate the impact of new features in the
-              mobile app.
-            </li>
-            <li>
-              Implement experiments to bolster the digital onboarding process.
-            </li>
-          </ul>
+          </p>
+          <p class="experience-date">
+            <em>June 2023 - October 2023</em>
+          </p>
+          <p>
+            <strong>Responsibilities and Achievements:</strong><br /><br/>
+            <ul class="experience-list">
+              <li>
+                Engineered a Bayesian inference model to evaluate the effectiveness of our banking infrastructure in capturing checking account balances and the account quantity on a county level.
+              </li>
+              <li>
+                Formulated a municipality classification framework to pinpoint priority regions for business, considering profitability and market potential.
+              </li>
+              <li>
+                Executed a comprehensive historical analysis on Banorte's market stance against competitors in terms of banking infrastructure (ATMs and branches) and acquisition of open market and payroll accounts.
+              </li>
+            </ul>
+          </p>
+  
         </div>
-      </div>
-      <div class="experience-container">
-        <img class="experience-image" src="images/banxico.jpg" alt="itam" s />
-        <p class="experience-name">
-          <strong>Financial Research </strong><br />
-          <a
+          <div class="experience-img-box"><img src="images/banorte.jpg" class="experience-img"  alt="banorte"/></div>
+          <div class="experience-text"><p class="experience-name">
+            <strong>Financial Research</strong><br />
+            <a
             class="experience-place"
             href="https://www.banxico.org.mx/indexen.html"
             target="_blank"
             >Central Bank of Mexico (Banco de México)
           </a>
-        </p>
-        <p class="experience-date">
-          <em>August 2019 - June 2023</em>
-        </p>
-        <p class="experience-others"></p>
-        <div class="experience-description">
-          <strong>Description: </strong>
-          <ul>
-            <li>
-              Led the first representative survey in Latin America on the
-              financial health of individuals.
-              <a
+          </p>
+          <p class="experience-date">
+            <em>August 2019 - June 2023</em>
+          </p>
+          <p>
+            <strong>Responsibilities and Achievements:</strong><br /><br/>
+            <ul class="experience-list">
+              <li>
+                Spearheaded the first representative survey in Latin America assessing the financial health of individuals. <a
                 href="https://www.banxico.org.mx/publicaciones-y-prensa/encuesta-de-competencias-financieras-de-la-poblaci/competencias-financieras-en.html"
                 target="_blank"
               >
-                Link to survey results (spanish)</a
+               View survey results (in Spanish)</a
               >
-            </li>
-            <li>
-              Contributed to the modification of the
-              <a
+              </li>
+              <li>
+                Played a key role in amending the  <a
                 href="http://en.www.inegi.org.mx/programas/enif/2021/"
                 target="_blank"
               >
                 National Survey of Financial Inclusion 2021 </a
-              >, one of the largest financial inclusion surveys in the world.
-            </li>
-            <li>
-              Design an unsupervised machine learning model in order to find the
-              optimal locations of financial infrastructure locations for a
-              public investment in commercial bank branches.
-            </li>
-            <li>
-              Provided continuous information on the state of the financial
-              system in Mexico to guide decision-making for stakeholders.
-            </li>
-          </ul>
+              >, recognized as one of the largest financial inclusion surveys globally.
+              </li>
+              <li>
+                Designed an unsupervised machine learning model to ascertain optimal locations for financial infrastructure, aiding public investment in commercial bank branches.
+              </li>
+              <li>
+                Furnished ongoing insights regarding the financial system landscape in Mexico, empowering informed decision-making for stakeholders.
+              </li>
+            </ul>
+          </p></div>
+          <div class="experience-img-box"><img src="images/banxico.jpg" class="experience-img"  alt="banxico"/></div>
         </div>
       </div>
-    </div>
+      
+      </section>
+
+
+    </main>
   </body>
 </html>
