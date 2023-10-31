@@ -80,6 +80,11 @@ a {
   padding: 0 3.2rem;
 }
 
+.container-margins {
+  margin-bottom: 3.2rem;
+  margin-top: 3.2rem;
+}
+
 .grid {
   display: grid;
   column-gap: 6.4rem;
