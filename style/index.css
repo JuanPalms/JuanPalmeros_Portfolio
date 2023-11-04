@@ -290,10 +290,16 @@ Greys:
 }
 
 /*Footer*/
+
 .contact-icons {
-  margin-top: 100px;
+  margin: 2.3rem 2.3rem;
   display: flex;
   gap: 10px; /* Adjust as needed for space between icons */
+}
+
+.contact {
+  margin: 2.3rem 2.3rem;
+  font-size: 1rem;
 }
 
 .contact-me {
