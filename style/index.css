@@ -177,8 +177,11 @@ Greys:
 }
 
 .logos {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  align-items: center;
+  column-gap: 2rem;
   padding-bottom: 3rem;
 }
 

@@ -50,74 +50,43 @@ Below 1200 pixels
 */
 
 @media (max-width: 75em) {
-  html {
-    font-size: 50%;
-  }
-  .grid {
-    column-gap: 3.2rem;
-    row-gap: 6.4rem;
+  .principal-header {
+    font-size: 4.4 rem;
+    margin-bottom: 2.4rem;
   }
 }
-
 /*
 Below 1100 pixels
 */
-
 @media (max-width: 68.75em) {
-  html {
-    font-size: 45%;
-  }
-  .container {
-    max-width: 110rem;
-    padding: 0 1.6rem;
+  .principal-header {
+    font-size: 3.6rem;
+    margin-bottom: 1.6rem;
   }
 
-  .container-big {
-    max-width: 110rem;
-    padding: 0 3rem;
+  .hero-img-box {
+    max-width: 25rem;
+    align-self: start;
+    margin: 6.4rem auto;
   }
 
-  .grid {
-    column-gap: 2.4rem;
-    row-gap: 6.4rem;
+  .logos {
+    padding-bottom: 2rem;
+    column-gap: 1rem;
   }
 
-  .heading-primary {
-    font-size: 3rem;
-    margin-bottom: 1.4 rem;
-  }
-
-  .heading-secondary {
-    font-size: 2.4rem;
-    margin-bottom: 1.4 rem;
+  .logos img {
+    width: 6rem;
   }
 }
 
 @media (max-width: 50em) {
-  html {
-    font-size: 35%;
-  }
-  .container {
-    max-width: 90rem;
-    padding: 0 1rem;
-  }
-  .container-big {
-    max-width: 90rem;
-    padding: 0 2rem;
+  .logos {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 0.5rem;
   }
 
-  .grid {
-    column-gap: 2rem;
-    row-gap: 4.8rem;
-  }
-
-  .heading-primary {
-    font-size: 2.4rem;
-    margin-bottom: 1.4 rem;
-  }
-
-  .heading-secondary {
-    font-size: 2rem;
-    margin-bottom: 1.4 rem;
+  .logos img {
+    max-width: 80%;
   }
 }
