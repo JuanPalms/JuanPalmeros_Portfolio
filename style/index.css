@@ -183,12 +183,17 @@ Greys:
   align-items: center;
   column-gap: 2rem;
   padding-bottom: 3rem;
+  margin: 0 auto;
 }
 
 .logos img {
   width: 8rem;
   /* filter: brightness(0);
   opacity: 50%; */
+}
+
+.spark-logo {
+  width: 10rem !important;
 }
 /***********************************************************************************8
 ***************************FEATURED PROJECTS SECTION***************************************/

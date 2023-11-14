@@ -94,9 +94,6 @@ Below 1100 pixels
 }
 
 @media (max-width: 50em) {
-  html {
-    font-size: 35%;
-  }
   .container {
     max-width: 90rem;
     padding: 0 1rem;

@@ -80,6 +80,9 @@ Below 1100 pixels
   }
 }
 
+/*
+Below 800 pixels
+*/
 @media (max-width: 50em) {
   .logos {
     grid-template-columns: repeat(4, 1fr);
@@ -88,5 +91,9 @@ Below 1100 pixels
 
   .logos img {
     max-width: 80%;
+    width: 2rem;
+  }
+  .spark-logo {
+    width: 3rem;
   }
 }
