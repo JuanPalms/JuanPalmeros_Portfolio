@@ -101,8 +101,7 @@ Below 800 pixels
   }
   .hero-img-box {
     max-width: 30rem; /* Remueve el límite de ancho máximo o ajústalo */
-    margin: 5rem auto; /* Ajusta el margen para pantallas más pequeñas */
-    /* Otras propiedades según sea necesario */
+    margin: auto auto;
   }
 
   .hero-img {
@@ -131,11 +130,20 @@ Below 800 pixels
   .spark-logo {
     width: 2rem;
   }
+
+  .projects-grid {
+    margin-top: 1rem;
+    display: grid;
+    margin-top: 3rem;
+    grid-template-columns: 1fr;
+    gap: 3.2 rem;
+    padding: 9rem 9rem;
+  }
 }
 
 @media (max-width: 31.25em) {
   .section-hero {
-    padding: 2rem 0;
+    padding: 1rem 0;
   }
   .hero {
     max-width: 100rem;
@@ -145,15 +153,28 @@ Below 800 pixels
     gap: 1rem;
   }
   .logos {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 0.1rem;
   }
 
   .logos img {
-    max-width: 75%;
-    width: 1.5rem;
+    max-width: 60%;
+    width: 1rem;
   }
   .spark-logo {
-    width: 2rem;
+    width: 1.5rem;
+  }
+  .section-stack {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .projects-grid {
+    margin-top: 1rem;
+    display: grid;
+    margin-top: 3rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 4.8rem 1.6rem;
+    border-bottom: #15cd95 8px solid;
+    border-top: #15cd95 8px solid;
   }
 }
