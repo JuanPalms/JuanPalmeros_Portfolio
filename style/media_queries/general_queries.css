@@ -64,9 +64,6 @@ Below 1100 pixels
 */
 
 @media (max-width: 68.75em) {
-  html {
-    font-size: 45%;
-  }
   .container {
     max-width: 110rem;
     padding: 0 1.6rem;
@@ -92,6 +89,10 @@ Below 1100 pixels
     margin-bottom: 1.4 rem;
   }
 }
+
+/*
+Below 800 pixels
+*/
 
 @media (max-width: 50em) {
   .container {
